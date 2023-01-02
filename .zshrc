@@ -4,6 +4,9 @@
 export ALL_PROXY="socks5://172.27.112.1:7890/"
 export no_proxy="localhost, 127.0.0.1"
 
+Acquire::http::proxy "socks5://172.27.112.1:7890";
+Acquire::https::proxy "socks5://172.27.112.1:7890";
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
