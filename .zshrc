@@ -1,7 +1,7 @@
-export http_proxy=http://127.0.0.1:7890
-export https_proxy=$http_proxy
+# export http_proxy=http://127.0.0.1:7890
+# export https_proxy=$http_proxy
 
-export no_proxy="localhost, 127.0.0.1"
+# export no_proxy="localhost, 127.0.0.1"
 
 # for enviroment path
 # export PATH=$PATH:/home/jichen/example
