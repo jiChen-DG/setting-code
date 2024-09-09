@@ -1,0 +1,83 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{titlesec}
+\geometry{a4paper, total={170mm,257mm}, left=20mm, top=20mm}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries} % 字体样式
+  {\thesection} % 标号
+  {1em} % 标号和标题文本之间的间距
+  {} % 标题前的内容
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries} % 字体样式
+  {\thesubsection} % 标号
+  {1em} % 标号和标题文本之间的间距
+  {} % 标题前的内容
+
+\usepackage[backend=biber, style=apa]{biblatex}
+
+\usepackage{indentfirst}
+\usepackage{setspace}
+\usepackage{float}
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\usepackage{booktabs} % For formal tables
+\usepackage{caption} % Customize caption aesthetics
+\usepackage{array} % For column formatting
+\usepackage{amsmath}
+
+% Adjust the space between the caption and the table
+\captionsetup[table]{skip=10pt}
+
+\lstset{style=mystyle}
+
+\title{COMP xxxx Assignment x}
+\author{xxx SID: xxx}
+\date{\today}
+
+\setstretch{1.2}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\maketitle
+
+
+
+\end{document}
