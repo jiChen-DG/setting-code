@@ -18,23 +18,20 @@
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
 
-\lstdefinestyle{mystyle}{
-    backgroundcolor=\color{backcolour},   
-    commentstyle=\color{codegreen},
-    keywordstyle=\color{magenta},
-    numberstyle=\tiny\color{codegray},
-    stringstyle=\color{codepurple},
-    basicstyle=\footnotesize,
-    breakatwhitespace=false,         
-    breaklines=true,                 
-    captionpos=b,                    
-    keepspaces=true,                 
-    numbers=left,                    
-    numbersep=5pt,                  
-    showspaces=false,                
-    showstringspaces=false,
-    showtabs=false,                  
-    tabsize=2
+\lstdefinestyle{java}{
+    language=Java,                   % 设置语言为 Java
+    basicstyle=\ttfamily\footnotesize, % 设置代码字体和大小
+    keywordstyle=\color{blue},       % 关键词颜色
+    stringstyle=\color{red},         % 字符串颜色
+    commentstyle=\color{gray},       % 注释颜色
+    numbers=left,                    % 行号显示在左侧
+    numberstyle=\tiny\color{gray},   % 行号字体和颜色
+    stepnumber=1,                    % 行号每隔几行显示一次
+    frame=single,                    % 代码框架
+    breaklines=true,                 % 自动换行
+    tabsize=4,                       % Tab 键宽度
+    showspaces=false,                % 不显示空格
+    showstringspaces=false           % 字符串中的空格不显示
 }
 
 \titleformat{\section}
@@ -66,7 +63,7 @@
 % Adjust the space between the caption and the table
 \captionsetup[table]{skip=10pt}
 
-\lstset{style=mystyle}
+\lstset{style=java}
 
 \title{COMP xxxx Assignment x}
 \author{xxx SID: xxx}
