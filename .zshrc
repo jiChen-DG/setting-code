@@ -5,13 +5,13 @@
 
 export ZSH="$HOME/.oh-my-zsh"
 
-exoort PATH=$PATH
+export PATH=$PATH
 
 alias cformat-get='wget https://raw.githubusercontent.com/JiChenSSG/setting-code/master/.clang-format'
 alias tex-get='wget https://raw.githubusercontent.com/JiChenSSG/setting-code/master/main.tex'
 
-alias gcb = 'git checkout -b'
-alias gco = 'git checkout'
+alias gcb='git checkout -b'
+alias gco='git checkout'
 
 # for wsl
 # alias ex='explorer.exe'
